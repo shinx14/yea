@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Happy Birthday</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="homepage.css">
+    </head>
+    <body>
+            <div class="birthday-card">
+                <h1>HAPPY BIRTHDAY FUTABA!!! Love you 💖</h1>
+                <h2 lang="kn">ಜನ್ಮದಿನದ ಶುಭಾಶಯಗಳು</h2>
+                <p>(click anywhere on the card for a suprise)</p>
+                <img src="bear-hug.gif" alt="Bear Hugs">
+            </div>
+
+        <script>
+            const divElement = document.querySelector('div');
+
+            divElement.addEventListener('click', function() {
+            window.location.href = 'card-content.html';
+            });
+        </script>
+    </body>
+</html> 

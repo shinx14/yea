@@ -1,0 +1,44 @@
+body {
+    background-color: #459CCE;
+    color: #054F7D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 98vh;
+}
+
+.birthday-card {
+    background-color: #92C0DA;
+    border: 5px solid #05578A;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px;
+    width: 1300px;
+    word-wrap: break-word;
+}
+
+h2 {
+    font-family: Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+#text-container {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+#image-click {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
